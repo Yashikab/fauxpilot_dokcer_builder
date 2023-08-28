@@ -36,3 +36,8 @@ getent group | grep docker
 ```shell
 sudo apt install nvidia-container-runtime
 ```
+
+## fauxpilotのデプロイ
+
+- git cloneしてくる
+- `./setup.sh`を実行すると、いろいろ質問されてdocker-composeによりデプロイされる
