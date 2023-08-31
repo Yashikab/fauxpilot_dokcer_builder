@@ -6,6 +6,3 @@ def is_rectangle(x :int,y :int,w :int,h :int) -> bool:
 
 def area_of_circle(r :int) ->float:
     return 3.1415926535897932385*r**2
-
-
-
